@@ -1,9 +1,19 @@
+This tells you whats the status of the repo:
+
 git status
 
-git add
+This adds a file that will be commited:
+
+git add filename
+
+This commits a file and adds it to the repo's history:
 
 git commit -m "message here"
 
+This sends the commited file to github:
+
 git push origin master
+
+This gets the latest version of the code from github:
 
 git pull origin master
